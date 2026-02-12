@@ -17,8 +17,8 @@ The backend server for the **Digital Census Portal Pro**, a robust system design
 
 * **Runtime:** [Node.js](https://nodejs.org/)
 * **Framework:** [Express.js](https://expressjs.com/)
-* **Database:** [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/) ORM (Assumed)
-* **Authentication:** JWT & Passport.js (or custom middleware)
+* **Database:** PostgreSQL
+* **Authentication:** JWT 
 * **Environment Management:** dotenv
 
 ## 📂 Folder Structure
@@ -44,8 +44,8 @@ Follow these steps to get the backend running locally.
 ### 1. Prerequisites
 
 * Node.js (v14 or higher)
-* npm or yarn
-* MongoDB installed locally or a MongoDB Atlas URI
+* npm
+* PostgreSQL
 
 ### 2. Clone the Repository
 
